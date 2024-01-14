@@ -1,0 +1,28 @@
+To install Jenkins on Windows, follow these steps:
+
+Prerequisites:
+Ensure you have Java installed on your system. Jenkins requires Java to run. You can download and install the latest Java JDK from the official Oracle website or use an alternative like AdoptOpenJDK.
+Installation Steps:
+1. Download Jenkins:
+Go to the Jenkins download page using your web browser.
+Download the Windows installer (usually a .war file) from the "Windows" section.
+2. Install Java:
+Ensure that Java is installed on your Windows machine. You can download it from the Oracle website or use an alternative distribution like AdoptOpenJDK.
+3. Set JAVA_HOME Environment Variable:
+Set the JAVA_HOME environment variable to the directory where Java is installed. This can be done in the Windows System Properties > Advanced > Environment Variables.
+4. Run the Jenkins Installer:
+Double-click on the downloaded Jenkins installer file (usually with a .war extension). This will start Jenkins as a standalone application.
+5. Access Jenkins Web Interface:
+Open your web browser and go to http://localhost:8080. This is the default Jenkins URL.
+6. Retrieve Initial Admin Password:
+During the first run, Jenkins will provide a path to the initial admin password. Navigate to that path and retrieve the password.
+7. Complete Jenkins Setup:
+Paste the initial admin password into the Jenkins setup wizard.
+Follow the on-screen instructions to install suggested plugins and set up the initial Jenkins administrator account.
+8. Start Using Jenkins:
+Once the setup is complete, you can start using Jenkins. You can access the Jenkins dashboard at http://localhost:8080.
+Notes:
+Ensure that the Jenkins process is running in the background. You can find the Jenkins icon in the system tray.
+Jenkins may take a few minutes to initialize and start the first time you access the web interface.
+For production environments, consider installing Jenkins as a Windows service for better management and automatic startup.
+These steps provide a basic setup of Jenkins on a Windows machine. For more advanced configurations, security settings, and customization, refer to the official Jenkins documentation or the Jenkins web interface after installation.
